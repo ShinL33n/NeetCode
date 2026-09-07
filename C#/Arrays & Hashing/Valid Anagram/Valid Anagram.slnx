@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ValidAnagram.Solution/ValidAnagram.Solution.csproj" />
+  <Project Path="ValidAnagram.Tests/ValidAnagram.Tests.csproj" />
+</Solution>
