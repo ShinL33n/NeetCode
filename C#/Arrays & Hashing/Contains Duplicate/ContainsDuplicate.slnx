@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ContainsDuplicate.Solution/ContainsDuplicate.Solution.csproj" />
+  <Project Path="ContainsDuplicate.Tests/ContainsDuplicate.Tests.csproj" />
+</Solution>
