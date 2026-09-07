@@ -33,4 +33,19 @@ public class ContainsDuplicateTests
         // Assert
         Assert.Equal(expected, actual);
     }
+
+    [Fact]
+    public void hasDuplicate_ReturnsFalseWhenArrayIsEmpty()
+    {
+        // Arrange
+        bool expected = false;
+        int[] input = new int[] { };
+
+        // Act
+        bool actual = Solution.hasDuplicate(input);
+
+        // Assert
+        Assert.Equal(expected, actual);
+    }
+
 }
