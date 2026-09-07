@@ -12,7 +12,7 @@ public static class Solution {
     public static bool hasDuplicate(int[] nums) {
         HashSet<int> set = new HashSet<int>();
 
-        if(nums.Length <= 0 || nums.Length > 100000) return false;
+        if(nums.Length <= 0) return false;
         
         foreach (int num in nums)
         {
